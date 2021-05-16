@@ -1,0 +1,87 @@
+.video {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url("/img/backgrounds/2.png") no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.video__title {
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-top: 3%;
+}
+
+.video__description {
+    margin-top: 2%;
+    color: #FFFFFF;
+}
+
+.video__video-block {
+    margin-top: 2%;
+    position: relative;
+}
+
+.video__img {
+    width: 100%;
+}
+
+.video__btn {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 200px;
+    text-decoration: none;
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    padding: 1% 2% 1% 2%;
+}
+
+.video__icon {
+    width: 30%;
+}
+
+.video__text {
+    margin-left: 3%;
+    color: #FFFFFF;
+}
+
+.video__line {
+    margin-top: 5%;
+}
+
+@media(max-width:960px) {
+    .video__btn {
+        width: 30%;
+        left: 36%;
+    }
+
+    .video__icon {
+        width: 25%;
+    }
+
+    .video__text {
+        margin-left: 3%;
+        color: #FFFFFF;
+    }
+
+    .video__line {
+        margin-top: 10%;
+    }
+}
+
+@media(max-width:860px) {
+    .video__line {
+        margin-top: 20%;
+    }
+}
+
+@media(max-width:461px) {
+    .video__title {
+        text-align: center;
+    }
+}
