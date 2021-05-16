@@ -1,5 +1,5 @@
 .first-screen {
-    background: url("/itstudy/img/backgrounds/1.png") no-repeat;
+    background: url("./img/backgrounds/1.png") no-repeat;
     max-width: 100%;
     width: 100vw;
     height: 100vh;
