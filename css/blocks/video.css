@@ -1,5 +1,5 @@
 .video {
-    background: url("https://raw.githubusercontent.com/AkzhigitovOlzhas/itstudy/main/img/backgrounds/2.png") no-repeat;
+    background: url("../../img/backgrounds/2.png") no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
